@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="bbc.romintnumerals.activities.MainActivity">
+
+
+    <TextView
+        android:id="@+id/integer_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="@dimen/text_padding"
+        android:paddingTop="@dimen/text_padding"
+        android:text="@string/no_integers_entered"
+        android:textAlignment="center"
+        android:textColor="@color/text_colour"
+        android:textSize="@dimen/message_font_size" />
+
+    <TextView
+        android:id="@+id/integer_converted_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/integer_value"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="@dimen/text_padding"
+        android:textAlignment="center"
+        android:textColor="@color/text_colour"
+        android:textSize="@dimen/numeral_font_size" />
+
+    <TextView
+        android:id="@+id/integer_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/integer_keyboard"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="@dimen/text_padding"
+        android:textAlignment="center"
+        android:textColor="@color/text_colour"
+        android:textSize="@dimen/key_font_size" />
+
+
+    <include
+        android:id="@+id/integer_keyboard"
+        layout="@layout/integer_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

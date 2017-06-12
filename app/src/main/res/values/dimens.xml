@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- key font size-->
+    <dimen name="key_font_size">35sp</dimen>
+    <dimen name="message_font_size">18sp</dimen>
+    <dimen name="numeral_font_size">70sp</dimen>
+
+    <dimen name="key_height">60dp</dimen>
+    <dimen name="text_padding">15dp</dimen>
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/roman_keyboard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:useDefaultMargins="false">
+
+
+    <LinearLayout
+        android:id="@+id/blank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" >
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/key_pressed"
+            android:contentDescription="@string/roman_one"
+            android:text="@string/roman_one"
+            android:textColor="@color/text_colour"
+            android:textSize="@dimen/key_font_size"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/one_to_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/blank">
+
+        <Button
+            android:id="@+id/roman_one"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/key_pressed"
+            android:contentDescription="@string/roman_one"
+            android:text="@string/roman_one"
+            android:textColor="@color/text_colour"
+            android:textSize="@dimen/key_font_size" />
+
+        <Button
+            android:id="@+id/roman_five"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/key_pressed"
+            android:contentDescription="@string/roman_five"
+            android:text="@string/roman_five"
+            android:textColor="@color/text_colour"
+            android:textSize="@dimen/key_font_size" />
+
+        <Button
+            android:id="@+id/roman_ten"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/key_pressed"
+            android:contentDescription="@string/roman_ten"
+            android:text="@string/roman_ten"
+            android:textColor="@color/text_colour"
+            android:textSize="@dimen/key_font_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/four_to_six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/one_to_three"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/roman_fifty"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/key_pressed"
+            android:contentDescription="@string/roman_fifty"
+            android:text="@string/roman_fifty"
+            android:textColor="@color/text_colour"
+            android:textSize="@dimen/key_font_size" />
+
+        <Button
+            android:id="@+id/roman_hundred"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/key_pressed"
+            android:contentDescription="@string/roman_hundred"
+            android:text="@string/roman_hundred"
+            android:textColor="@color/text_colour"
+            android:textSize="@dimen/key_font_size" />
+
+        <Button
+            android:id="@+id/roman_five_hundred"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/key_pressed"
+            android:contentDescription="@string/roman_five_hundred"
+            android:text="@string/roman_five_hundred"
+            android:textColor="@color/text_colour"
+            android:textSize="@dimen/key_font_size" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/seven_to_nine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/four_to_six"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/roman_clear"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/key_pressed"
+            android:contentDescription="@string/delete_description"
+            android:text="@string/clear"
+            android:textColor="@color/text_colour"
+            android:textSize="@dimen/key_font_size" />
+
+        <Button
+            android:id="@+id/roman_thousand"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/key_pressed"
+            android:contentDescription="@string/roman_thousand"
+            android:text="@string/roman_thousand"
+            android:textColor="@color/text_colour"
+            android:textSize="@dimen/key_font_size" />
+
+        <Button
+            android:id="@+id/roman_enter"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/key_pressed"
+            android:contentDescription="@string/delete_description"
+            android:text="@string/enter"
+            android:textColor="@color/text_colour"
+            android:textSize="@dimen/key_font_size" />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

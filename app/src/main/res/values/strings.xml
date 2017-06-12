@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">RomInt Numerals</string>
+    <string name="roman_tab">Rom > Int</string>
+    <string name="int_tab">Int > Rom</string>
+    
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="enter">=</string>
+    <string name="clear">clr</string>
+
+    <string name="roman_one">I</string>
+    <string name="roman_five">V</string>
+    <string name="roman_ten">X</string>
+    <string name="roman_fifty">L</string>
+    <string name="roman_hundred">C</string>
+    <string name="roman_five_hundred">D</string>
+    <string name="roman_thousand">M</string>
+
+    <string name="delete_description">enter</string>
+    <string name="clear_description">clear</string>
+
+    <!-- Error Strings -->
+    <string name="no_integers_entered">Convert arabic numbers into roman numerals</string>
+    <string name="no_romans_entered">Convert roman numerals into arabic numbers</string>
+</resources>
